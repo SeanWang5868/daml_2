@@ -1,2 +1,7 @@
 # daml_2
-2rd assessment of data analysis and machine learning
+The University of York campus lake on the Heslington West campus is home to a lot of different lake birds; in fact, the University has the second highest '*duck density*' in the UK! All University of York students are able to recognise the ducks, geese, and swans that they see around the lake - but is a computer able to, or is it what separates us from machines?
+
+Your dataset is packaged as a .zip archive (which you will need to download and unpack) and contains colour (RGB) images (***X***) of ducks, geese, and swans (*y*). Inside the .zip archive (`lake_bird_images.zip`), there are two subdirectories: `train` and `test`, containing the training and testing datasets, respectively. Inside each of these subdirectories are three further subdirectories: `duck`, `goose`, and `swan`. There are 498 images of ducks, 981 images of geese, and 335 images of swans inside `train` (1814 images in total), and there are 218 images of ducks, 405 images of geese, and 160 images of swans inside `test` (783 images in total).
+
+Your task is to build one deep machine-learning model:
+- a **multiclass classification model for predicting whether the image is a duck, a goose, or a swan**. You are only allowed to evaluate your model performance on the test dataset (`test`) once; all model (hyperparameter) tuning should be carried out using only the training dataset (`train`) and a validation set derived from it.
